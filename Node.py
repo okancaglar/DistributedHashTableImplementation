@@ -196,7 +196,7 @@ class Node(object):
 def test() -> None:
 
     test_node = Node("192.168.1.23", 80, 3)
-    test_node.create()
+    test_node.create_network()
     print(test_node)
     test_node_2 = Node("192.168.32.243", 9090, 3)
     test_node_2.join(test_node)
